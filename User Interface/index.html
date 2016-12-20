@@ -58,10 +58,29 @@
       margin-bottom: 40px;
       z-index: 900;
     }
+        .headerbg{
+                background-image: url('images/header-bg.jpg');
+
+        }
+        .headerlogo {
+  margin-right: 525px;
+  height: 32px;
+  width: 32px;
+}
     </style>
   </head>
   <body>
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header headerbg ">
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer">
+        </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+       		<img src="images/logo.png" class="headerlogo"/>
+        </div>
+    </div>
+  </header>
       
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
@@ -193,6 +212,20 @@
     	</button>
   		</div>
 		</div>
+                    
+ <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">All rights reserved.</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
       </main>
       
     </div>
